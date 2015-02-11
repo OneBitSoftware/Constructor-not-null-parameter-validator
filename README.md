@@ -22,6 +22,7 @@
             this.lastName = lastName;
 
             Validator.ValidateNotNullConstructorFields(this);
+            // or
             Validator.ValidateNotNullFields("www", "age", "firstName", "lastName");
         }
     }
