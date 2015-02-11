@@ -3,7 +3,7 @@ using System.Reflection;
 
 namespace ConstructorValidator
 {
-    public class ConstructorValidator
+    public class Validator
     {
         const BindingFlags BindFlags =
                 BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static;
